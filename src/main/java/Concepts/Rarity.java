@@ -1,4 +1,4 @@
-package src.main.java.concepts;
+package Concepts;
 
 /**
  * {@summary}

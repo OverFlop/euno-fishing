@@ -1,4 +1,7 @@
-package src.main.java.entity;
+package Entity;
+
+import Concepts.DifficultyPattern;
+import Concepts.Rarity;
 
 /**
  * {@summary}
@@ -49,22 +52,37 @@ public class Fish {
     }
   }
 
+  /**
+   * @return
+   */
   public String getName() {
     return this.name;
   }
 
+  /**
+   * @return
+   */
   public DifficultyPattern getDifficultyPattern() {
     return this.difficultyPattern;
   }
 
+  /**
+   * @return
+   */
   public int getDifficulty() {
     return this.difficulty;
   }
 
+  /**
+   * @return
+   */
   public int getExp() {
     return this.exp;
   }
 
+  /**
+   * @return
+   */
   public Rarity getRarity() {
     return this.rarity;
   }
