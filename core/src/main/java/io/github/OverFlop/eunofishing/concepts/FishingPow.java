@@ -1,4 +1,4 @@
-package concepts;
+package io.github.OverFlop.eunofishing.concepts;
 
 public class FishingPow {
   int power;

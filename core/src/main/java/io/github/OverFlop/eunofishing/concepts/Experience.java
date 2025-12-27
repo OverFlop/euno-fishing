@@ -1,6 +1,6 @@
-package concepts;
+package io.github.OverFlop.eunofishing.concepts;
 
-import entity.Fish;
+import io.github.OverFlop.eunofishing.entity.*;
 
 /**
  * {@summary Experience class that stores the current player exp, exp threshold to next level and

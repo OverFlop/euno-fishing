@@ -1,7 +1,7 @@
-package entity;
+package io.github.OverFlop.eunofishing.entity;
 
-import concepts.Experience;
-import concepts.FishingPow;
+import io.github.OverFlop.eunofishing.concepts.Experience;
+import io.github.OverFlop.eunofishing.concepts.FishingPow;
 
 
 /**

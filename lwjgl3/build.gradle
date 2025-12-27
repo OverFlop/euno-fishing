@@ -12,6 +12,7 @@ buildscript {
 }
 plugins {
   id "application"
+  id 'java-library'
 }
 apply plugin: 'io.github.fourlastor.construo'
 
@@ -21,10 +22,9 @@ import io.github.fourlastor.construo.Target
 sourceSets.main.resources.srcDirs += [ rootProject.file('assets').path ]
 application.mainClass = 'io.github.OverFlop.eunofishing.lwjgl3.Lwjgl3Launcher'
 eclipse.project.name = appName + '-lwjgl3'
-java.sourceCompatibility = 17.0.17-tem
-java.targetCompatibility = 17.0.17-tem
-if (JavaVersion.current().isJava9Compatible()) {
-        compileJava.options.release.set(17.0.17-tem)
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {

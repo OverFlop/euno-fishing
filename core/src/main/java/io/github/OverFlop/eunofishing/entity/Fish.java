@@ -1,7 +1,7 @@
-package entity;
+package io.github.OverFlop.eunofishing.entity;
 
-import concepts.DifficultyPattern;
-import concepts.Rarity;
+import io.github.OverFlop.eunofishing.concepts.DifficultyPattern;
+import io.github.OverFlop.eunofishing.concepts.Rarity;
 
 /**
  * {@summary Fish class that creates a fish of a rarity, difficulty of capturing it and the pattern

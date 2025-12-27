@@ -1,4 +1,4 @@
-package concepts;
+package io.github.OverFlop.eunofishing.concepts;
 
 /**
  * {@summary This is the 5 types of difficulty patterns for each fish can have.}

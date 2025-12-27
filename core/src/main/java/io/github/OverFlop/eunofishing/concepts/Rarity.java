@@ -1,4 +1,4 @@
-package concepts;
+package io.github.OverFlop.eunofishing.concepts;
 
 /**
  * {@summary These are the 6 rarity's that each fish can have.}
