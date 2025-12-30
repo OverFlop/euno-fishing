@@ -1,6 +1,8 @@
-package entity;
+package io.github.OverFlop.eunofishing.entity;
 
-import concepts.FishingPow;
+import com.badlogic.gdx.graphics.Texture;
+
+import io.github.OverFlop.eunofishing.concepts.FishingPow;
 /**
  * 
  */
@@ -10,15 +12,50 @@ public class FishingRod {
   private FishingPow fishingPow;
   private Bait bait;
 
+  private Texture testRodTexture ;
+  private Texture testRodFishingTexture;
+  private Texture testRodCastingTexture;
+
   /**
    * @param name - Name of the fishing rod
    * @param fishingPow - The fishing power the rod gives the player
    * @param bait - The bait that is attached to the rod
+   * @param rodCastImg - Name of the rodCast image
+   * @param rodImg - Name of the rod image
+   * @param rodFishingImg - Name of the rodFishing image
    */
-  public FishingRod(String name, FishingPow fishingPow, Bait bait) {
+  public FishingRod(String name, FishingPow fishingPow, Bait bait, Texture rodCastImg, Texture rodImg, Texture rodFishingImg) {
     this.name = name;
     this.fishingPow = fishingPow;
     this.bait = bait;
+
+    this.testRodCastingTexture = rodCastImg;
+    this.testRodFishingTexture = rodFishingImg;
+    this.testRodTexture = rodFishingImg;
+  }
+
+  public Texture getTestRodTexture() {
+    return testRodTexture;
+  }
+
+  public void setTestRodTexture(Texture testRodTexture) {
+    this.testRodTexture = testRodTexture;
+  }
+
+  public Texture getTestRodFishingTexture() {
+    return testRodFishingTexture;
+  }
+
+  public void setTestRodFishingTexture(Texture testRodFishingTexture) {
+    this.testRodFishingTexture = testRodFishingTexture;
+  }
+
+  public Texture getTestRodCastingTexture() {
+    return testRodCastingTexture;
+  }
+
+  public void setTestRodCastingTexture(Texture testRodCastingTexture) {
+    this.testRodCastingTexture = testRodCastingTexture;
   }
 
   /**
@@ -62,7 +99,4 @@ public class FishingRod {
   public void setBait(Bait bait) {
     this.bait = bait;
   }
-
-
-
 }

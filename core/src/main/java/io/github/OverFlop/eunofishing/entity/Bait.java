@@ -1,6 +1,6 @@
-package entity;
+package io.github.OverFlop.eunofishing.entity;
 
-import concepts.FishingPow;
+import io.github.OverFlop.eunofishing.concepts.FishingPow;
 
 public class Bait {
   FishingPow baitStrength;
