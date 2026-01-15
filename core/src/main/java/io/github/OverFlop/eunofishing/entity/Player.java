@@ -1,7 +1,5 @@
 package io.github.OverFlop.eunofishing.entity;
 
-import com.badlogic.gdx.graphics.Texture;
-
 import io.github.OverFlop.eunofishing.concepts.Experience;
 import io.github.OverFlop.eunofishing.concepts.FishingPow;
 
@@ -15,17 +13,15 @@ public class Player {
   private FishingRod rod;
   private FishingPow overallPow;
 
-  private Texture testPlayerTexture;
 
   /**
    * {@summary}
    * 
    * @param name - Name of the player
    */
-  public Player(String name,Texture testPlayerTexture) {
+  public Player(String name) {
     this.name = name;
     this.exp = new Experience();
-    this.testPlayerTexture = testPlayerTexture;
   }
 
   public FishingPow getOverallPow() {

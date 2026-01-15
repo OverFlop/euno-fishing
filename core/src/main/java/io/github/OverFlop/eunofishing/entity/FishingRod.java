@@ -24,38 +24,10 @@ public class FishingRod {
    * @param rodImg - Name of the rod image
    * @param rodFishingImg - Name of the rodFishing image
    */
-  public FishingRod(String name, FishingPow fishingPow, Bait bait, Texture rodCastImg, Texture rodImg, Texture rodFishingImg) {
+  public FishingRod(String name, FishingPow fishingPow, Bait bait) {
     this.name = name;
     this.fishingPow = fishingPow;
     this.bait = bait;
-
-    this.testRodCastingTexture = rodCastImg;
-    this.testRodFishingTexture = rodFishingImg;
-    this.testRodTexture = rodFishingImg;
-  }
-
-  public Texture getTestRodTexture() {
-    return testRodTexture;
-  }
-
-  public void setTestRodTexture(Texture testRodTexture) {
-    this.testRodTexture = testRodTexture;
-  }
-
-  public Texture getTestRodFishingTexture() {
-    return testRodFishingTexture;
-  }
-
-  public void setTestRodFishingTexture(Texture testRodFishingTexture) {
-    this.testRodFishingTexture = testRodFishingTexture;
-  }
-
-  public Texture getTestRodCastingTexture() {
-    return testRodCastingTexture;
-  }
-
-  public void setTestRodCastingTexture(Texture testRodCastingTexture) {
-    this.testRodCastingTexture = testRodCastingTexture;
   }
 
   /**
